@@ -4,8 +4,11 @@
 https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols
 
 img_inversion.pyで画像を白黒反転
+
 gen_data.pyで訓練データとテストデータに分割
+
 cnn_model.pyで最初のモデル構築
+
 vgg16_transfer.pyでvgg16のモデルを使い転移学習
 
 ```
