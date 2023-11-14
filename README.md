@@ -11,6 +11,8 @@ cnn_model.pyで最初のモデル構築
 
 vgg16_transfer.pyでvgg16のモデルを使い転移学習
 
+model:
+
 ```
 def build_model():
     # 独自の入力層を追加
