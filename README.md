@@ -8,7 +8,7 @@ gen_data.pyで訓練データとテストデータに分割
 cnn_model.pyで最初のモデル構築
 vgg16_transfer.pyでvgg16のモデルを使い転移学習
 
-'''
+```
 def build_model():
     # 独自の入力層を追加
     input_tensor = X_train.shape[1:]
@@ -26,4 +26,4 @@ def build_model():
     x = Dense(num_classes, activation='softmax')(x)
     
     return Model(model.inputs, x) 
-'''
+```
