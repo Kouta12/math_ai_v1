@@ -32,3 +32,7 @@ def build_model():
     
     return Model(model.inputs, x) 
 ```
+
+
+作成したモデルを用いた推論webアプリ
+https://vast-bayou-37871-a48305f7bb97.herokuapp.com/home/
