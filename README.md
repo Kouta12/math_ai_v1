@@ -34,5 +34,5 @@ def build_model():
 ```
 
 
-作成したモデルを用いた推論webアプリ
+webアプリURL
 https://vast-bayou-37871-a48305f7bb97.herokuapp.com/home/
